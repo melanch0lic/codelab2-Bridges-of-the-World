@@ -1,3 +1,4 @@
+import 'package:codelab_2/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/landing_page.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LandingPage(),
+      home: SplashPage(),
       debugShowCheckedModeBanner: false,
     );
   }
